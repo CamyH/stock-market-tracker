@@ -4,8 +4,9 @@ Importing font
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 :root {
 	--font: "Montserrat", sans-serif;
-	--font-color: hsl(0, 100%, 100%);
+	--font-colour: hsl(0, 100%, 100%);
 	--background: hsl(0, 0%, 20%);
+	--search-bar-bg: hsla(0, 0%, 0%, 0.3);
 }
 
 body {
@@ -14,9 +15,18 @@ body {
 
 #wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	#header {
-		color: var(--font-color);
+		color: var(--font-colour);
 		font-size: 4rem;
+	}
+	#search-bar {
+		background-color: var(--search-bar-bg);
+	}
+	#search-bar::placeholder {
+		color: var(--font-colour);
+		opacity: 1;
 	}
 }
