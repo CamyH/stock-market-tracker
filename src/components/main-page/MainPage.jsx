@@ -5,7 +5,7 @@ function MainPage() {
 	return (
 		<React.Fragment>
 			<section id="wrapper">
-				<h1>Test</h1>
+				<h1 id="header">StockTrack</h1>
 			</section>
 		</React.Fragment>
 	);

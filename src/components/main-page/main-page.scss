@@ -4,9 +4,19 @@ Importing font
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 :root {
 	--font: "Montserrat", sans-serif;
+	--font-color: hsl(0, 100%, 100%);
 	--background: hsl(0, 0%, 20%);
 }
 
 body {
 	background-color: var(--background);
+}
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+	#header {
+		color: var(--font-color);
+		font-size: 4rem;
+	}
 }
