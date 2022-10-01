@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/stock-market-tracker/static/css/main.41ca79a8.css",
-    "main.js": "/stock-market-tracker/static/js/main.4c56fa12.js",
+    "main.css": "/stock-market-tracker/static/css/main.bce773ea.css",
+    "main.js": "/stock-market-tracker/static/js/main.263d51be.js",
     "static/js/787.a4aa616b.chunk.js": "/stock-market-tracker/static/js/787.a4aa616b.chunk.js",
+    "static/media/stock-track-logo.png": "/stock-market-tracker/static/media/stock-track-logo.8a02fc781c34032ee2b2.png",
     "index.html": "/stock-market-tracker/index.html",
-    "main.41ca79a8.css.map": "/stock-market-tracker/static/css/main.41ca79a8.css.map",
-    "main.4c56fa12.js.map": "/stock-market-tracker/static/js/main.4c56fa12.js.map",
+    "main.bce773ea.css.map": "/stock-market-tracker/static/css/main.bce773ea.css.map",
+    "main.263d51be.js.map": "/stock-market-tracker/static/js/main.263d51be.js.map",
     "787.a4aa616b.chunk.js.map": "/stock-market-tracker/static/js/787.a4aa616b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41ca79a8.css",
-    "static/js/main.4c56fa12.js"
+    "static/css/main.bce773ea.css",
+    "static/js/main.263d51be.js"
   ]
 }
