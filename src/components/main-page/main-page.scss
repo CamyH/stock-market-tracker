@@ -29,6 +29,10 @@ body {
 	transition: 0.7s ease-out;
 }
 
+.stock-track-logo {
+	@extend .account-img;
+}
+
 #wrapper {
 	display: flex;
 	flex-direction: column;

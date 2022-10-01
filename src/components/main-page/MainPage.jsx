@@ -1,15 +1,21 @@
 import React from "react";
 import "./main-page.scss";
 import accountIcon from "../../assets/user-solid.png";
+import stockTrackLogo from "../../assets/stock-track-logo.png";
 
 function MainPage() {
 	return (
 		<React.Fragment>
-			<img src={accountIcon} class="account-img" alt="account icon" />
+			<img src={accountIcon} className="account-img" alt="account icon" />
 			<section id="wrapper">
+				<img
+					src={stockTrackLogo}
+					className="stock-track-logo"
+					alt="stock track logo"
+				/>
 				<h1 id="header">StockTrack</h1>
 				<input id="search-bar" type="text" placeholder="Enter a stock here" />
-				<button class="button">Track Stock</button>
+				<button className="button">Track Stock</button>
 			</section>
 		</React.Fragment>
 	);
