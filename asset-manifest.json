@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/stock-market-tracker/static/css/main.bce773ea.css",
-    "main.js": "/stock-market-tracker/static/js/main.263d51be.js",
-    "static/js/787.a4aa616b.chunk.js": "/stock-market-tracker/static/js/787.a4aa616b.chunk.js",
+    "main.js": "/stock-market-tracker/static/js/main.d1adc6da.js",
     "static/media/stock-track-logo.png": "/stock-market-tracker/static/media/stock-track-logo.8a02fc781c34032ee2b2.png",
     "index.html": "/stock-market-tracker/index.html",
     "main.bce773ea.css.map": "/stock-market-tracker/static/css/main.bce773ea.css.map",
-    "main.263d51be.js.map": "/stock-market-tracker/static/js/main.263d51be.js.map",
-    "787.a4aa616b.chunk.js.map": "/stock-market-tracker/static/js/787.a4aa616b.chunk.js.map"
+    "main.d1adc6da.js.map": "/stock-market-tracker/static/js/main.d1adc6da.js.map"
   },
   "entrypoints": [
     "static/css/main.bce773ea.css",
-    "static/js/main.263d51be.js"
+    "static/js/main.d1adc6da.js"
   ]
 }
