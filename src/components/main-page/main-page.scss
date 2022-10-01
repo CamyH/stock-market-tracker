@@ -8,10 +8,25 @@ Importing font
 	--background: hsl(0, 0%, 20%);
 	--search-bar-bg: hsla(0, 0%, 0%, 0.3);
 	--button-bg: hsl(188, 99%, 38%);
+	--button-bg-hover: hsla(188, 99%, 38%, 0.8);
 }
 
 body {
 	background-color: var(--background);
+}
+
+.account-img {
+	width: clamp(1em, 8vw, 2em);
+	height: clamp(1em, 8vw, 2em);
+	display: block;
+	padding: 1em 0 0 1em;
+	cursor: pointer;
+	transition: 0.7s ease-in;
+}
+
+.account-img:hover {
+	filter: grayscale(70%);
+	transition: 0.7s ease-out;
 }
 
 #wrapper {
@@ -19,11 +34,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	.account-img {
-	}
 	#header {
 		color: var(--font-colour);
-		font-size: 4rem;
+		font-size: clamp(2rem, 8vw, 6rem);
 	}
 	#search-bar {
 		background-color: var(--search-bar-bg);
@@ -42,5 +55,11 @@ body {
 		text-decoration: none;
 		cursor: pointer;
 		margin: 1rem 0 0 0;
+		border: none;
+		transition: 0.2s ease-in;
+	}
+	.button:hover {
+		background-color: var(--button-bg-hover);
+		transition: 0.2s ease-out;
 	}
 }
