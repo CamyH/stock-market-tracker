@@ -31,21 +31,27 @@ body {
 
 .stock-track-logo {
 	@extend .account-img;
+	transition: none;
+	width: clamp(1em, 16vw, 16vw);
+	height: clamp(1em, 16vw, 16vw);
 }
 
 #wrapper {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	#header {
 		color: var(--font-colour);
 		font-size: clamp(2rem, 8vw, 6rem);
+		flex-grow: 5;
 	}
 	#search-bar {
 		background-color: var(--search-bar-bg);
 		padding: 0.5rem;
 		color: var(--font-colour);
+		flex-grow: 4;
+		flex-basis: 100%;
 	}
 	#search-bar::placeholder {
 		color: var(--font-colour);
