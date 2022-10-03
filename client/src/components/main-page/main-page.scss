@@ -1,20 +1,3 @@
-/*
-Importing font
-*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
-:root {
-	--font: "Montserrat", sans-serif;
-	--font-colour: hsl(0, 100%, 100%);
-	--background: hsl(0, 0%, 20%);
-	--search-bar-bg: hsla(0, 0%, 0%, 0.3);
-	--button-bg: hsl(188, 99%, 38%);
-	--button-bg-hover: hsla(188, 99%, 38%, 0.8);
-}
-
-body {
-	background-color: var(--background);
-}
-
 .account-img {
 	width: clamp(1em, 8vw, 2em);
 	height: clamp(1em, 8vw, 2em);
