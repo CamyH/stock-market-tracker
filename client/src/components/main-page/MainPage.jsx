@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./main-page.scss";
 import accountIcon from "../../assets/user-solid.png";
 import stockTrackLogo from "../../assets/stock-track-logo.png";
@@ -17,7 +18,9 @@ function MainPage() {
 			</section>
 			<section id="content-wrapper">
 				<input id="search-bar" type="text" placeholder="Enter a stock here" />
-				<button className="button">Track Stock</button>
+				<Link to={"/my-account"}>
+					<button className="button">Track Stock</button>
+				</Link>
 			</section>
 		</React.Fragment>
 	);
