@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./main-page.scss";
 import accountIcon from "../../assets/user-solid.png";
 import stockTrackLogo from "../../assets/stock-track-logo.png";

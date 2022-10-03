@@ -1,6 +1,7 @@
 {
   "name": "stock-market-tracker",
   "version": "0.1.0",
+  "proxy": "http://localhost:5000",
   "private": true,
   "homepage": "https://camyh.github.io/stock-market-tracker/",
   "dependencies": {
