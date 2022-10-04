@@ -15,8 +15,8 @@
 .stock-track-logo {
 	@extend .account-img;
 	transition: none;
-	width: clamp(1em, 10vw, 16vw);
-	height: clamp(1em, 22vh, 20vh);
+	width: clamp(1em, 8em, 16em);
+	height: clamp(1em, 8em, 16em);
 	margin: 0 1em 0 0;
 }
 
