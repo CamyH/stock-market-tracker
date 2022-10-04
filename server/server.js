@@ -2,7 +2,8 @@
 // https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo
 
 let request = require('request');
-let api = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=RSZVV5D6GXX5BHZO';
+let key = 'RSZVV5D6GXX5BHZO';
+let api = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=' + key;
 
 
 request.get({
