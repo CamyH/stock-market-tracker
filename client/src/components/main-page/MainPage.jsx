@@ -14,7 +14,7 @@ function MainPage() {
 					className="stock-track-logo"
 					alt="stock track logo"
 				/>
-				<h1 id="header">StockTrack</h1>
+				<h1 className="header">StockTrack</h1>
 			</section>
 			<section id="content-wrapper">
 				<input id="search-bar" type="text" placeholder="Enter a stock here" />
