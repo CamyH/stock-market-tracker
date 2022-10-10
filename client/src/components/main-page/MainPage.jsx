@@ -20,8 +20,7 @@ function MainPage() {
 
 	return (
 		<React.Fragment>
-			<LineChart chartData={userData} />
-			{/*
+			{/*<LineChart chartData={userData} />*/}
 			<img src={accountIcon} className="account-img" alt="account icon" />
 			<section id="header-wrapper">
 				<img
@@ -37,7 +36,6 @@ function MainPage() {
 					<button className="button">Track Stock</button>
 				</Link>
 			</section>
-	*/}
 		</React.Fragment>
 	);
 }
