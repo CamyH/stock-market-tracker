@@ -4,9 +4,24 @@ import "./main-page.scss";
 import accountIcon from "../../assets/user-solid.png";
 import stockTrackLogo from "../../assets/stock-track-logo.png";
 
+import LineChart from "../chart-js/LineChart";
+import { UserData } from "../chart-js/Data";
+
 function MainPage() {
+	const [userData, setUserData] = useState({
+		labels: UserData.map((data) => data.year),
+		datasets: [
+			{
+				label: "Users Gained",
+				data: UserData.map((data) => data.userGain),
+			},
+		],
+	});
+
 	return (
 		<React.Fragment>
+			<LineChart chartData={userData} />
+			{/*
 			<img src={accountIcon} className="account-img" alt="account icon" />
 			<section id="header-wrapper">
 				<img
@@ -22,6 +37,7 @@ function MainPage() {
 					<button className="button">Track Stock</button>
 				</Link>
 			</section>
+	*/}
 		</React.Fragment>
 	);
 }
